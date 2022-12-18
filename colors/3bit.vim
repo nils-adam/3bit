@@ -1,6 +1,6 @@
 hi clear
 syntax reset
-let g:colors_name = "3bit"
+let g:colors_name = '3bit'
 set background=dark
 set t_Co=256
 hi Normal guifg=#ffffff ctermbg=NONE guibg=#000000 gui=NONE
