@@ -1,5 +1,7 @@
-hi clear
-syntax reset
+highlight clear
+if exists("syntax_on")
+  syntax reset
+endif
 let g:colors_name = '3bit'
 set background=dark
 set t_Co=256
